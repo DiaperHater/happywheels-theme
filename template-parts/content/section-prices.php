@@ -1,5 +1,5 @@
 <!-- Prices -->
-<section class="py-12 md:py-24 text-blue-700">
+<section class="py-12 md:py-24">
   <div class="wrapper">
     <div class="box">
       <!-- Inner -->
@@ -17,8 +17,8 @@
         <!-- Cards -->
         <div class="col-span-full grid grid-cols-subgrid gap-x-6 gap-y-12">
           <!-- Card -->
-          <p class="col-span-2 pb-4 shadow-md rounded-lg p-4 cursor-default">
-            <span class="block text-3xl font-semibold mb-4 text-blue-700 md:text-4xl">
+          <p class="col-span-4 border odd:rotate-2 even:-rotate-6 duration-200 hover:rotate-0 pb-4 shadow-md rounded-lg p-4 cursor-default min-[400px]:col-span-2">
+            <span class="block text-3xl font-semibold mb-4 md:text-4xl">
               1 на 1
             </span>
             <span class="block text-xl mb-4 italic">
@@ -26,13 +26,13 @@
               <br>1 Тренер
               <br>1 Час в неделю
             </span>
-            <strong class="block text-xl text-blue-700 md:text-2xl">
+            <strong class="block text-xl md:text-2xl">
               250 AED / Час
             </strong>
           </p>
           <!-- Card -->
-          <p class="col-span-2 pb-4 shadow-md rounded-lg p-4 cursor-default">
-            <span class="block text-3xl font-semibold mb-4 text-blue-700 md:text-4xl">
+          <p class="col-span-4 border odd:rotate-2 even:-rotate-6 duration-200 hover:rotate-0 pb-4 shadow-md rounded-lg p-4 cursor-default min-[400px]:col-span-2">
+            <span class="block text-3xl font-semibold mb-4 md:text-4xl">
               1 на 1
             </span>
             <span class="block text-xl mb-4 italic">
@@ -40,46 +40,46 @@
               <br>1 Тренер
               <br><strong>2 Часа в неделю</strong>
             </span>
-            <strong class="block text-xl text-blue-700 md:text-2xl">
+            <strong class="block text-xl md:text-2xl">
               200 AED / Час
             </strong>
           </p>
           <!-- Card -->
-          <p class="col-span-2 pb-4 shadow-md rounded-lg p-4 cursor-default">
-            <span class="block text-3xl font-semibold mb-4 text-blue-700 md:text-4xl">
+          <p class="col-span-4 border odd:rotate-2 even:-rotate-6 duration-200 hover:rotate-0 pb-4 shadow-md rounded-lg p-4 cursor-default min-[400px]:col-span-2">
+            <span class="block text-3xl font-semibold mb-4 md:text-4xl">
               2 на 1
             </span>
             <span class="block text-xl mb-4 italic">
               2 Ученика
               <br>1 Тренер
             </span>
-            <strong class="block text-xl text-blue-700 md:text-2xl">
+            <strong class="block text-xl md:text-2xl">
               150 AED / Час
             </strong>
           </p>
           <!-- Card -->
-          <p class="col-span-2 pb-4 shadow-md rounded-lg p-4 cursor-default">
-            <span class="block text-3xl font-semibold mb-4 text-blue-700 md:text-4xl">
+          <p class="col-span-4 border odd:rotate-2 even:-rotate-6 duration-200 hover:rotate-0 pb-4 shadow-md rounded-lg p-4 cursor-default min-[400px]:col-span-2">
+            <span class="block text-3xl font-semibold mb-4 md:text-4xl">
               3 на 1
             </span>
             <span class="block text-xl mb-4 italic">
               3 Ученика
               <br>1 Тренер
             </span>
-            <strong class="block text-xl text-blue-700 md:text-2xl">
+            <strong class="block text-xl md:text-2xl">
               100 AED / Час
             </strong>
           </p>
           <!-- Card -->
-          <p class="col-span-2 pb-4 shadow-md rounded-lg p-4 cursor-default">
-            <span class="block text-3xl font-semibold mb-4 text-blue-700 md:text-4xl">
+          <p class="col-span-4 border odd:rotate-2 even:-rotate-6 duration-200 hover:rotate-0 pb-4 shadow-md rounded-lg p-4 cursor-default min-[400px]:col-span-2">
+            <span class="block text-3xl font-semibold mb-4 md:text-4xl">
               4 на 1
             </span>
             <span class="block text-xl mb-4 italic">
               4 Ученика
               <br>1 Тренер
             </span>
-            <strong class="block text-xl text-blue-700 md:text-2xl">
+            <strong class="block text-xl md:text-2xl">
               75 AED / Час
             </strong>
           </p>

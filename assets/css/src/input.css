@@ -7,6 +7,10 @@
     font-family: "Roboto Condenced";
   }
 
+  html {
+    @apply text-neutral-700;
+  }
+
   .wrapper {
     @apply px-4 xl:px-16;
   }
