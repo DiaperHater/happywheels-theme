@@ -7,7 +7,7 @@ $background = get_sub_field('background');
 ?>
 
 <!-- HomeHero -->
-<section class="relative">
+<section class="relative text-white">
   <!-- VideBG -->
   <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover object-center">
     <source src="<?= $background['video']['url'] ?>" />
