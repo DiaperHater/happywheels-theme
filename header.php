@@ -18,11 +18,11 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-neutral-900 text-white fixed top-0 left-0 w-full z-50 group/header">
+  <header class="bg-neutral-900 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
     <div class="wrapper">
       <div class="box">
         <!-- Inner -->
-        <nav class="py-6 flex items-center duration-200 group-[.narrow]/header:py-3">
+        <nav class="header__inner py-6 flex items-center duration-200 group-[.narrow]/header:py-3 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-90 group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
           <a href="<?= home_url() ?>" class="text-2xl leading-none font-bold uppercase duration-200 hover:text-yellow-500 mr-12">
             HappyWheels

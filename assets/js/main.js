@@ -36,71 +36,6 @@
 
 // Swiper
 (function () {
-  const swiperCertificates = new Swiper('.swiper', {
-    slidesPerView: 2,
-    spaceBetween: 24,
-    loop: true,
-    freeMode: {
-      enabled: true,
-      sticky: false
-    },
-    mousewheel: {
-      forceToAxis: true,
-      releaseOnEdges: true
-    },
-    speed: 5000,
-    autoplay: {
-      delay: 1,
-      disableOnInteraction: false,
-    },
-    breakpoints: {
-      375: {
-        slidesPerView: 4
-      },
-      640: {
-        slidesPerView: 6,
-      },
-      1024: {
-        slidesPerView: 6,
-        spaceBetween: 56,
-      },
-      1280: {
-        slidesPerView: 6,
-        spaceBetween: 120,
-      },
-    }
-  });
-
-  const swiperClients = new Swiper('.swiper-clients', {
-    slidesPerView: 1.1,
-    spaceBetween: 12,
-    freeMode: {
-      enabled: true,
-      sticky: false
-    },
-    mousewheel: {
-      forceToAxis: true,
-      releaseOnEdges: true
-    },
-    grabCursor: true,
-    breakpoints: {
-      440: {
-        slidesPerView: 1.5,
-        spaceBetween: 12,
-      },
-      560: {
-        slidesPerView: 2.2
-      },
-      640: {
-        slidesPerView: 2.2,
-        spaceBetween: 24,
-      },
-      1024: {
-        slidesPerView: 3.2,
-        spaceBetween: 24,
-      }
-    }
-  });
 
   const swiperTestimonials = new Swiper('.swiper-testimonials', {
     slidesPerView: 1.2,
@@ -143,6 +78,9 @@ function toggleMobileMenu() {
   const menu = document.querySelector('.mobile-menu');
   menu.classList.toggle('left-full');
   menu.classList.toggle('left-0');
+
+  const headerInner = document.querySelector('.header__inner');
+  headerInner.classList.toggle('!rounded-b-none');
 }
 
 function playPauseVideo(player) {

@@ -20,7 +20,7 @@ if (!is_admin()) {
 
     // Scripts    
     wp_enqueue_script('swiper-script', get_theme_file_uri('/assets/js/swiper-bundle.min.js'), array(), '10.0.5', true);
-    wp_enqueue_script('happywheels-script', get_theme_file_uri('/assets/js/main.js'), array('swiper-script'), S_VERSION, true);
+    wp_enqueue_script('happywheels-script', get_theme_file_uri('/assets/js/main.js'), array('swiper-script'), '1.0.0', true);
   }
   add_action('after_setup_theme', 'happywheels_theme_setup');
 }

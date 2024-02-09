@@ -609,6 +609,7 @@ html {
   width: fit-content;
   align-items: center;
   justify-content: center;
+  border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
   padding-top: 0.75rem;
@@ -871,10 +872,6 @@ textarea.custom-form-input {
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .ml-auto {
@@ -1597,10 +1594,6 @@ textarea.custom-form-input {
   row-gap: 1rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1915,6 +1908,11 @@ textarea.custom-form-input {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.\!rounded-b-none {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
 
 .rounded-b {
@@ -2759,6 +2757,7 @@ textarea.custom-form-input {
     width: fit-content;
     align-items: center;
     justify-content: center;
+    border-radius: 0.375rem;
     --tw-bg-opacity: 1;
     background-color: rgb(234 179 8 / var(--tw-bg-opacity));
     padding-top: 0.75rem;
@@ -2850,6 +2849,24 @@ textarea.custom-form-input {
   row-gap: 0.375rem;
 }
 
+.group\/header.narrow .group-\[\.narrow\]\/header\:rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.group\/header.narrow .group-\[\.narrow\]\/header\:bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
+.group\/header.narrow .group-\[\.narrow\]\/header\:bg-opacity-90 {
+  --tw-bg-opacity: 0.9;
+}
+
+.group\/header.narrow .group-\[\.narrow\]\/header\:px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .group\/header.narrow .group-\[\.narrow\]\/header\:py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2870,20 +2887,8 @@ textarea.custom-form-input {
     grid-column: span 2 / span 2;
   }
 
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-
   .md\:col-start-4 {
     grid-column-start: 4;
-  }
-
-  .md\:row-start-1 {
-    grid-row-start: 1;
-  }
-
-  .md\:m-0 {
-    margin: 0px;
   }
 
   .md\:mb-0 {
@@ -2929,10 +2934,6 @@ textarea.custom-form-input {
     display: none;
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
   .lg\:items-center {
     align-items: center;
   }
@@ -2940,11 +2941,6 @@ textarea.custom-form-input {
   .lg\:gap-x-4 {
     -moz-column-gap: 1rem;
          column-gap: 1rem;
-  }
-
-  .lg\:gap-x-6 {
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
   }
 }
 
@@ -2954,4 +2950,12 @@ textarea.custom-form-input {
       paint-order: markers;
     }
   }
+}
+
+.\[\&\.narrow\]\:top-6.narrow {
+  top: 1.5rem;
+}
+
+.\[\&\.narrow\]\:bg-transparent.narrow {
+  background-color: transparent;
 }
