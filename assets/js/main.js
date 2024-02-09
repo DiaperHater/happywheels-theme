@@ -38,7 +38,7 @@
 (function () {
 
   const swiperTestimonials = new Swiper('.swiper-testimonials', {
-    slidesPerView: 1.2,
+    slidesPerView: 1.1,
     spaceBetween: 24,
     freeMode: {
       enabled: true,
