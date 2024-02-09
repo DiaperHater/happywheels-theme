@@ -15,6 +15,10 @@
   .box {
     @apply w-[1280px] max-w-full mx-auto;
   }
+
+  .box-sm {
+    @apply w-[982px] max-w-full mx-auto;
+  }
 }
 
 @layer components {

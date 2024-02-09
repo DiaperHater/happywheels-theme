@@ -1,5 +1,5 @@
 <!-- About -->
-<section class="bg-blue-500 py-24 relative">
+<section class="bg-blue-500 py-12 md:py-24 relative">
   <div class="wrapper">
     <div class="box">
       <p class="subheading text-white font-normal text-center">

@@ -13,6 +13,8 @@ $row_layout = get_row_layout();
       <?php get_template_part('template-parts/content/section', 'about') ?>    
     <?php elseif (get_row_layout() == 'cta') : ?>
       <?php get_template_part('template-parts/content/section', 'cta') ?>    
+    <?php elseif (get_row_layout() == 'levels') : ?>
+      <?php get_template_part('template-parts/content/section', 'levels') ?>    
     <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>

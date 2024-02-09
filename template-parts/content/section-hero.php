@@ -18,7 +18,7 @@ $background = get_sub_field('background');
   <div class="wrapper relative">
     <div class="box">
       <!-- Inner -->
-      <div class="h-[80vh] flex flex-col justify-end items-center py-24">
+      <div class="h-[80vh] flex flex-col justify-end items-center py-12 md:py-24">
         <!-- Heading -->
         <h2 class="heading text-center mb-12">
           <?= $heading ?>
