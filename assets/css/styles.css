@@ -890,6 +890,10 @@ textarea.custom-form-input {
   margin-top: 76px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1087,6 +1091,11 @@ textarea.custom-form-input {
 
 .origin-top-right {
   transform-origin: top right;
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -2059,6 +2068,11 @@ textarea.custom-form-input {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -2150,6 +2164,10 @@ textarea.custom-form-input {
 
 .bg-origin-content {
   background-origin: content-box;
+}
+
+.fill-yellow-500 {
+  fill: #eab308;
 }
 
 .object-contain {
@@ -2289,6 +2307,10 @@ textarea.custom-form-input {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
