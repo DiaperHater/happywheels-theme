@@ -18,7 +18,7 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-neutral-900 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
+  <header class="bg-blue-500 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
     <div class="wrapper">
       <div class="box">
         <!-- Inner -->

@@ -15,6 +15,8 @@ $row_layout = get_row_layout();
       <?php get_template_part('template-parts/content/section', 'cta') ?>    
     <?php elseif (get_row_layout() == 'levels') : ?>
       <?php get_template_part('template-parts/content/section', 'levels') ?>    
+    <?php elseif (get_row_layout() == 'prices') : ?>
+      <?php get_template_part('template-parts/content/section', 'prices') ?>    
     <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>
