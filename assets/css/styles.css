@@ -817,6 +817,10 @@ textarea.custom-form-input {
   z-index: 50;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -888,6 +892,10 @@ textarea.custom-form-input {
 
 .mt-\[76px\] {
   margin-top: 76px;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .box-border {
@@ -2196,6 +2204,11 @@ textarea.custom-form-input {
      object-position: center;
 }
 
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2204,6 +2217,11 @@ textarea.custom-form-input {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .pb-24 {
