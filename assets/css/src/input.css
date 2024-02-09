@@ -30,7 +30,7 @@
   }
 
   .subheading {
-    @apply text-lg font-semibold md:text-xl;
+    @apply text-xl md:text-3xl;
   }
 
   /* Contact Form */
