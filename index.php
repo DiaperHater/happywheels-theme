@@ -23,6 +23,8 @@ $row_layout = get_row_layout();
       <?php get_template_part('template-parts/content/section', 'testimonials') ?>    
     <?php elseif (get_row_layout() == 'reasons') : ?>
       <?php get_template_part('template-parts/content/section', 'reasons') ?>    
+    <?php elseif (get_row_layout() == 'coach') : ?>
+      <?php get_template_part('template-parts/content/section', 'coach') ?>    
     <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>

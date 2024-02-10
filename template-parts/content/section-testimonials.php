@@ -1,5 +1,5 @@
 <!-- Testimonials -->
-<section class="py-12 md:py-24">
+<section class="py-12 md:py-24 overflow-hidden">
   <div class="wrapper">
     <div class="box">
       <!-- Heading -->
