@@ -1,6 +1,6 @@
 <!-- Reasons -->
 <section class="bg-blue-500 py-12 md:py-24 relative">
-  <div class="wrapper">
+  <div class="wrapper overflow-hidden pb-11">
     <div class="box">
       <h2 class="heading text-center text-white mb-16">
         Вы в надежных руках

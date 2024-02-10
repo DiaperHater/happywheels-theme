@@ -634,9 +634,9 @@ html {
 
 .button:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .heading {
@@ -667,14 +667,10 @@ html {
 /* Contact Form */
 
 .wpcf7-form {
-  display: grid;
-  gap: 1.5rem;
-}
-
-@media (min-width: 640px) {
-  .wpcf7-form {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 1.5rem;
 }
 
 .wpcf7-form-control-wrap {
@@ -682,35 +678,67 @@ html {
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .wpcf7-form-control-wrap {
-    grid-column: span 3 / span 3;
-  }
-
-  .wpcf7-form-control-wrap[data-name="your-message"] {
-    grid-column: span 6 / span 6;
-  }
-}
-
-.custom-form-input {
+.custom-form-input,
+  .wpcf7-select,
+  .wpcf7-form-control-wrap.locations {
   display: block;
   width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(29 78 216 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 0.5rem;
   font-weight: 300;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(23 23 23 / var(--tw-text-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
-.custom-form-input:focus {
-  outline-style: dashed;
-  outline-color: #3b82f6;
+.wpcf7-form-control-wrap.locations {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.75rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+.wpcf7-checkbox {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wpcf7-select {
+  background: url(/wp-content/themes/happywheels-theme/assets/images/arrow-down.svg) no-repeat;
+  background-position: center right 4px;
+  background-size: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+.custom-form-input:focus,
+  .wpcf7-select:focus {
+  outline-color: #fff;
 }
 
 textarea.custom-form-input {
+  margin-bottom: 1.5rem;
   resize: none;
 }
 
@@ -916,6 +944,10 @@ textarea.custom-form-input {
   margin-right: auto;
 }
 
+.-mt-12 {
+  margin-top: -3rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -960,12 +992,8 @@ textarea.custom-form-input {
   margin-top: 0.5rem;
 }
 
-.mt-\[76px\] {
-  margin-top: 76px;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
+.mt-\[52px\] {
+  margin-top: 52px;
 }
 
 .box-border {
@@ -1155,8 +1183,8 @@ textarea.custom-form-input {
   max-width: 100%;
 }
 
-.max-w-\[620px\] {
-  max-width: 620px;
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .flex-shrink {
@@ -1219,11 +1247,6 @@ textarea.custom-form-input {
 
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-12 {
-  --tw-translate-y: -3rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2258,9 +2281,14 @@ textarea.custom-form-input {
   border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.\!bg-blue-700 {
+.border-t-neutral-900 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(23 23 23 / var(--tw-border-opacity));
+}
+
+.\!bg-blue-500 {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -2410,6 +2438,11 @@ textarea.custom-form-input {
      object-position: center;
 }
 
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2428,14 +2461,18 @@ textarea.custom-form-input {
   padding-bottom: 6rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-48 {
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pb-24 {
@@ -2466,16 +2503,16 @@ textarea.custom-form-input {
   padding-top: 5rem;
 }
 
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
@@ -2554,14 +2591,24 @@ textarea.custom-form-input {
   line-height: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -2710,10 +2757,6 @@ textarea.custom-form-input {
 
 .decoration-wavy {
   text-decoration-style: wavy;
-}
-
-.decoration-4 {
-  text-decoration-thickness: 4px;
 }
 
 .underline-offset-4 {
@@ -3100,9 +3143,9 @@ textarea.custom-form-input {
 
   .lg\:button:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
@@ -3127,9 +3170,9 @@ textarea.custom-form-input {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:\!bg-blue-500:hover {
+.hover\:\!bg-neutral-900:hover {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:font-bold:hover {
@@ -3144,10 +3187,6 @@ textarea.custom-form-input {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 .before\:hover\:text-center:hover::before {
@@ -3166,6 +3205,11 @@ textarea.custom-form-input {
 
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
+}
+
+.group:hover .group-hover\:bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:text-blue-500 {
@@ -3218,11 +3262,6 @@ textarea.custom-form-input {
   padding-right: 1.5rem;
 }
 
-.group\/header.narrow .group-\[\.narrow\]\/header\:py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .group.active .group-\[\.active\]\:opacity-0 {
   opacity: 0;
 }
@@ -3236,11 +3275,6 @@ textarea.custom-form-input {
 @media (min-width: 640px) {
   .sm\:-mt-32 {
     margin-top: -8rem;
-  }
-
-  .sm\:-translate-y-32 {
-    --tw-translate-y: -8rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .sm\:underline {
@@ -3269,6 +3303,10 @@ textarea.custom-form-input {
     grid-column: span 3 / span 3;
   }
 
+  .md\:col-span-full {
+    grid-column: 1 / -1;
+  }
+
   .md\:col-start-1 {
     grid-column-start: 1;
   }
@@ -3285,16 +3323,16 @@ textarea.custom-form-input {
     margin-bottom: 0px;
   }
 
-  .md\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .md\:mb-24 {
     margin-bottom: 6rem;
   }
 
   .md\:mb-32 {
     margin-bottom: 8rem;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .md\:grid {
@@ -3386,6 +3424,10 @@ textarea.custom-form-input {
     padding-bottom: 3rem;
   }
 
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -3403,6 +3445,10 @@ textarea.custom-form-input {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-mt-\[200px\] {
+    margin-top: -200px;
+  }
+
   .lg\:ml-12 {
     margin-left: 3rem;
   }
@@ -3411,12 +3457,8 @@ textarea.custom-form-input {
     margin-left: auto;
   }
 
-  .lg\:mt-\[88px\] {
-    margin-top: 88px;
-  }
-
-  .lg\:-mt-\[200px\] {
-    margin-top: -200px;
+  .lg\:mt-\[66px\] {
+    margin-top: 66px;
   }
 
   .lg\:block {
@@ -3429,11 +3471,6 @@ textarea.custom-form-input {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:-translate-y-\[200px\] {
-    --tw-translate-y: -200px;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:items-center {

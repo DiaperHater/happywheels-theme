@@ -18,27 +18,27 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-blue-500 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
+  <header class="bg-neutral-900 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
     <div class="wrapper">
       <div class="box">
         <!-- Inner -->
-        <nav class="header__inner py-6 flex items-center duration-200 group-[.narrow]/header:py-3 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-90 group-[.narrow]/header:rounded-lg">
+        <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-90 group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
-          <a href="<?= home_url() ?>" class="text-2xl leading-none font-bold uppercase duration-200 mr-12">
+          <a href="<?= home_url() ?>" class="text-2xl leading-none font-bold uppercase duration-200 hover:text-blue-500 mr-12">
             HappyWheels
           </a>
           <!-- Links -->
           <ul class="hidden lg:flex lg:items-center lg:gap-x-4 lg:ml-auto">
-            <a href="#" class="text-base uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Для кого
             </a>
-            <a href="#" class="text-base uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Уровни
             </a>
-            <a href="#" class="text-base uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Цены
             </a>
-            <a href="#" class="text-base uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Тренер
             </a>
           </ul>
@@ -46,11 +46,11 @@
           <div class="flex gap-x-4 items-center ml-auto lg:ml-12">
             <!-- Burger  -->
             <button class="burger w-[36px] flex flex-col gap-y-2 group group-[.narrow]/header:gap-y-1.5 group-[.narrow]/header:w-[30px] lg:hidden" onclick="burgerOnClick()">
-              <div class="w-full h-1 bg-white duration-200 origin-top-right group-[.active]:-rotate-45"></div>
-              <div class="w-full h-1 bg-white duration-200 group-[.active]:-translate-x-full group-[.active]:opacity-0 group-[.active]:invisible"></div>
-              <div class="w-full h-1 bg-white duration-200 origin-bottom-right group-[.active]:rotate-45"></div>
+              <div class="w-full h-1 bg-white rounded-lg duration-200 origin-top-right group-[.active]:-rotate-45 group-hover:bg-blue-500"></div>
+              <div class="w-full h-1 bg-white rounded-lg duration-200 group-[.active]:-translate-x-full group-[.active]:opacity-0 group-[.active]:invisible group-hover:bg-blue-500"></div>
+              <div class="w-full h-1 bg-white rounded-lg duration-200 origin-bottom-right group-[.active]:rotate-45 group-hover:bg-blue-500"></div>
             </button>
-            <a href="#" class="hidden border border-white !bg-blue-700 hover:!text-white hover:!bg-blue-500 lg:block lg:button">
+            <a href="#" class="hidden border border-white !bg-blue-500 hover:!text-white hover:!bg-neutral-900 lg:block lg:button">
               Контакты
             </a>
           </div>
@@ -65,16 +65,16 @@
           <div class="flex flex-col gap-y-16 pt-14 pb-40">
             <!-- Links -->
             <ul class="flex flex-col gap-y-4">
-              <a href="#" class="text-lg uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Для кого
               </a>
-              <a href="#" class="text-lg uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Уровни
               </a>
-              <a href="#" class="text-lg uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Цены
               </a>
-              <a href="#" class="text-lg uppercase duration-200  decoration-4 underline-offset-4 hover:underline">
+              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Тренер
               </a>
             </ul>
@@ -92,4 +92,4 @@
     </nav>
   </header>
 
-  <main class="mt-[76px] lg:mt-[88px]">
+  <main class="mt-[52px] lg:mt-[66px]">

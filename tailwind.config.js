@@ -10,5 +10,7 @@ module.exports = {
     'wpcf7-form',
     'wpcf7-form-control-wrap',
     'wpcf7-response-output',
+    'wpcf7-select',
+    'wpcf7-checkbox',
   ],
 }

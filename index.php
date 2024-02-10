@@ -25,6 +25,8 @@ $row_layout = get_row_layout();
       <?php get_template_part('template-parts/content/section', 'reasons') ?>    
     <?php elseif (get_row_layout() == 'coach') : ?>
       <?php get_template_part('template-parts/content/section', 'coach') ?>    
+    <?php elseif (get_row_layout() == 'form') : ?>
+      <?php get_template_part('template-parts/content/section', 'form') ?>    
     <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>
