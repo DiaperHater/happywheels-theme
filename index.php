@@ -21,6 +21,8 @@ $row_layout = get_row_layout();
       <?php get_template_part('template-parts/content/section', 'media-cta') ?>    
     <?php elseif (get_row_layout() == 'testimonials') : ?>
       <?php get_template_part('template-parts/content/section', 'testimonials') ?>    
+    <?php elseif (get_row_layout() == 'reasons') : ?>
+      <?php get_template_part('template-parts/content/section', 'reasons') ?>    
     <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>
