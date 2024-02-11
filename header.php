@@ -58,7 +58,7 @@
       </div>
     </div>
     <!-- MobileMenu -->
-    <nav class="mobile-menu absolute top-full left-full w-full h-[100vh] overflow-auto bg-neutral-900 bg-opacity-90 duration-200 lg:hidden">
+    <nav class="mobile-menu absolute top-full left-full w-full h-[100vh] overflow-auto bg-neutral-900 bg-opacity-90 duration-200 lg:hidden" onclick="burgerOnClick()">
       <div class="wrapper">
         <div class="box">
           <!-- Inner -->
