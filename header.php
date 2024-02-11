@@ -24,21 +24,21 @@
         <!-- Inner -->
         <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-90 group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
-          <a href="<?= home_url() ?>" class="text-2xl leading-none font-bold uppercase duration-200 hover:text-blue-500 mr-12">
+          <span class="cursor-default text-2xl leading-none font-bold uppercase mr-12">
             HappyWheels
-          </a>
+          </span>
           <!-- Links -->
           <ul class="hidden lg:flex lg:items-center lg:gap-x-4 lg:ml-auto">
-            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
+            <a href="#about" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Для кого
             </a>
-            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
+            <a href="#levels" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Уровни
             </a>
-            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
+            <a href="#prices" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Цены
             </a>
-            <a href="#" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
+            <a href="#coach" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
               Тренер
             </a>
           </ul>
@@ -50,7 +50,7 @@
               <div class="w-full h-1 bg-white rounded-lg duration-200 group-[.active]:-translate-x-full group-[.active]:opacity-0 group-[.active]:invisible group-hover:bg-blue-500"></div>
               <div class="w-full h-1 bg-white rounded-lg duration-200 origin-bottom-right group-[.active]:rotate-45 group-hover:bg-blue-500"></div>
             </button>
-            <a href="#" class="hidden border border-white !bg-blue-500 hover:!text-white hover:!bg-neutral-900 lg:block lg:button">
+            <a href="#form" class="hidden border border-white !bg-blue-500 hover:!text-white hover:!bg-neutral-900 lg:block lg:button">
               Контакты
             </a>
           </div>
@@ -65,16 +65,16 @@
           <div class="flex flex-col gap-y-16 pt-14 pb-40">
             <!-- Links -->
             <ul class="flex flex-col gap-y-4">
-              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#about" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Для кого
               </a>
-              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#levels" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Уровни
               </a>
-              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#prices" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Цены
               </a>
-              <a href="#" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#coach" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
                 Тренер
               </a>
             </ul>
@@ -83,7 +83,7 @@
               <?php get_template_part('template-parts/components/social-icons', null) ?>
             </div>
             <!-- Contact -->
-            <a href="#" class="button self-center">
+            <a href="#form" class="button self-center">
               Контакты
             </a>
           </div>

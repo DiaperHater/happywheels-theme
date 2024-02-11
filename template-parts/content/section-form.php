@@ -1,5 +1,5 @@
 <!-- Form -->
-<section class="py-12 md:py-24 bg-blue-500">
+<section id="form" class="py-12 md:py-24 bg-blue-500">
   <div class="wrapper">
     <div class="box">
       <!-- Heading -->

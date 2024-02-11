@@ -1,5 +1,5 @@
 <!-- Prices -->
-<section class="py-12 md:py-24">
+<section id="prices" class="py-24">
   <div class="wrapper">
     <div class="box">
       <!-- Inner -->

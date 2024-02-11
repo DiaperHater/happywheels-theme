@@ -1,5 +1,5 @@
 <!-- Coach -->
-<section class="py-12 md:py-24">
+<section id="coach" class="py-24">
   <div class="wrapper overflow-hidden">
     <div class="box-sm">
       <!-- Heading -->
