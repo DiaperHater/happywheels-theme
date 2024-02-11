@@ -17,7 +17,7 @@
             Здесь мы учимся катанию на роликах ,
             <br>но не останавливаемся на достигнутом .
           </p>
-          <a href="#" class="button mx-auto">
+          <a href="#form" class="button mx-auto">
             Я тоже !
           </a>
         </div>
