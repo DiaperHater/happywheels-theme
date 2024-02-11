@@ -2698,6 +2698,11 @@ textarea.custom-form-input {
   color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
+.text-neutral-900 {
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2706,11 +2711,6 @@ textarea.custom-form-input {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-neutral-900 {
-  --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -3493,29 +3493,4 @@ textarea.custom-form-input {
 
 .\[\&\.narrow\]\:bg-transparent.narrow {
   background-color: transparent;
-}
-
-.\[\&_a\:hover\]\:text-red-500 a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.\[\&_a\>svg\:hover\]\:text-red-500 a>svg:hover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.\[\&_a\>svg\]\:hover\:text-red-500:hover a>svg {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.\[\&_ahover\]\:hover\:text-red-500:hover ahover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.\[\&_ahover\]\:hover\:\[\&\>svg\]\:text-red-500>svg:hover ahover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
