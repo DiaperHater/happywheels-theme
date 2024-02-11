@@ -956,10 +956,6 @@ textarea.custom-form-input {
   margin-bottom: 4rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -2438,11 +2434,6 @@ textarea.custom-form-input {
      object-position: center;
 }
 
-.object-top {
-  -o-object-position: top;
-     object-position: top;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -2471,12 +2462,12 @@ textarea.custom-form-input {
   padding-bottom: 12rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.pb-11 {
+  padding-bottom: 2.75rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pb-4 {
@@ -2501,14 +2492,6 @@ textarea.custom-form-input {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pb-11 {
-  padding-bottom: 2.75rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .pt-4 {
@@ -2586,6 +2569,11 @@ textarea.custom-form-input {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2594,21 +2582,6 @@ textarea.custom-form-input {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -3295,10 +3268,6 @@ textarea.custom-form-input {
     top: 100%;
   }
 
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -3323,16 +3292,16 @@ textarea.custom-form-input {
     margin-bottom: 0px;
   }
 
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:mb-24 {
     margin-bottom: 6rem;
   }
 
   .md\:mb-32 {
     margin-bottom: 8rem;
-  }
-
-  .md\:mb-12 {
-    margin-bottom: 3rem;
   }
 
   .md\:grid {

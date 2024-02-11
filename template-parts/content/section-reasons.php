@@ -15,7 +15,7 @@
             <br>Тренер
           </h3>
           <p class="text-white text-xl">
-            Высшее спортивное образование, опыт работы с детьми и взрослыми более 12 лет. Прошел обучение по оказанию первой помощи.
+            Высшее спортивное образование , опыт работы с детьми и взрослыми более 12 лет . Прошел обучение по оказанию первой помощи .
           </p>
           <!-- Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-blue-500 w-24 h-24 absolute top-1/2 right-full -translate-y-1/2  -translate-x-2 text-white md:top-full md:left-1/2 md:-translate-y-1/2 md:right-auto md:-translate-x-1/2">
@@ -26,11 +26,10 @@
         <!-- Card -->
         <div class="col-span-3 col-start-1 p-4 rounded-xl border shadow-lg text-center rotate-3 duration-200 hover:rotate-0 cursor-default bg-blue-500 relative md:col-start-4 md:pb-12 md:-rotate-3 xl:col-span-2 xl:col-start-auto">
           <h3 class="text-2xl text-white mb-6">
-            Не забываем
-            <br>о веселье
+            Помним о веселье
           </h3>
           <p class="text-white text-xl">
-            Вас ждут воодушевляющие смех и тренировки с играми на коньках. Вы весело проведете время, заведете друзей и научитесь кататься на роликах!
+            Вас ждут смех и воодушевляющие тренировки с играми на коньках . Вы весело проведете время , заведете друзей и научитесь кататься на роликах !
           </p>
           <!-- Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-blue-500 w-24 h-24 absolute top-1/2 left-full -translate-y-1/2  translate-x-2 text-white md:top-full md:left-1/2 md:-translate-y-1/2 md:right-auto md:-translate-x-1/2">
@@ -48,12 +47,12 @@
             <br>о здоровье
           </h3>
           <p class="text-white text-xl">
-            Вы всегда будете разогреваться и охлаждаться на занятиях и узнаете, как выбрать защиту, чтобы оставаться в форме и безопасности.
-          </p>
-          <!-- Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-blue-500 w-24 h-24 absolute top-1/2 right-full -translate-y-1/2  -translate-x-2 text-white md:top-full md:left-1/2 md:-translate-y-1/2 md:right-auto md:-translate-x-1/2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
-          </svg>
+            Мы всегда проводим разминку пред началом занятий ! Вы узнаете , как выбрать защиту , чтобы оставаться в безопасности и выглядеть потрясающе .
+            </p,>
+            <!-- Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-blue-500 w-24 h-24 absolute top-1/2 right-full -translate-y-1/2  -translate-x-2 text-white md:top-full md:left-1/2 md:-translate-y-1/2 md:right-auto md:-translate-x-1/2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+            </svg>
 
         </div>
       </div>
