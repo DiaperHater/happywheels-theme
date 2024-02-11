@@ -18,11 +18,11 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-neutral-900 text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent">
+  <header class="bg-neutral-900 bg-opacity-20 backdrop-blur-sm text-white fixed top-0 left-0 w-full z-50 group/header [&.narrow]:top-6 [&.narrow]:bg-transparent [&.narrow]:backdrop-blur-none">
     <div class="wrapper">
       <div class="box">
         <!-- Inner -->
-        <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-90 group-[.narrow]/header:rounded-lg">
+        <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-20 group-[.narrow]/header:backdrop-blur-sm group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
           <span class="cursor-default text-2xl leading-none font-bold uppercase mr-12">
             HappyWheels
@@ -92,4 +92,4 @@
     </nav>
   </header>
 
-  <main class="mt-[52px] lg:mt-[66px]">
+  <main class="">
