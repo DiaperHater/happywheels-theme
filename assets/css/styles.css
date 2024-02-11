@@ -944,8 +944,16 @@ textarea.custom-form-input {
   margin-right: auto;
 }
 
+.-mb-px {
+  margin-bottom: -1px;
+}
+
 .-mt-12 {
   margin-top: -3rem;
+}
+
+.-mt-px {
+  margin-top: -1px;
 }
 
 .mb-12 {
@@ -990,14 +998,6 @@ textarea.custom-form-input {
 
 .mt-\[52px\] {
   margin-top: 52px;
-}
-
-.-mt-px {
-  margin-top: -1px;
-}
-
-.-mb-px {
-  margin-bottom: -1px;
 }
 
 .box-border {
@@ -2468,11 +2468,6 @@ textarea.custom-form-input {
 .py-48 {
   padding-top: 12rem;
   padding-bottom: 12rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-11 {
