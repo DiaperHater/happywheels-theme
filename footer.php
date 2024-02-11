@@ -13,6 +13,12 @@
         </div>
       </div>
       <!-- Socials -->
+      <div class="flex justify-center mb-12">
+        <a href="tel:+971558730851" class="text-3xl font-semibold underline text-neutral-900 block">
+          +971-55-8730851
+        </a>
+      </div>
+      <!-- Socials -->
       <div class="flex gap-x-6 justify-center mb-12">
         <?php get_template_part('template-parts/components/social-icons', null) ?>
       </div>
