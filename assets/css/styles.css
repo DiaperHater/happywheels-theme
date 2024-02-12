@@ -1876,6 +1876,11 @@ textarea.custom-form-input {
   border-style: none;
 }
 
+.divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(233 213 255 / var(--tw-divide-opacity));
+}
+
 .place-self-auto {
   place-self: auto;
 }

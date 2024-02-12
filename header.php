@@ -24,9 +24,9 @@
         <!-- Inner -->
         <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-20 group-[.narrow]/header:backdrop-blur-sm group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
-          <span class="cursor-default text-2xl leading-none font-bold uppercase mr-12">
+          <a href="/" class="text-2xl leading-none font-bold uppercase mr-12 divide-purple-200 hover:text-blue-500">
             HappyWheels
-          </span>
+          </a>
           <!-- Links -->
           <ul class="hidden lg:flex lg:items-center lg:gap-x-4 lg:ml-auto">
             <a href="#about" class="text-base uppercase duration-200 underline-offset-4 hover:text-blue-500">
@@ -92,4 +92,4 @@
     </nav>
   </header>
 
-  <main class="">
+  <main id="top">
