@@ -12,7 +12,7 @@
       <!-- Body -->
       <div class="pb-12">
         <!-- Image -->
-        <img src="http://happywheels.local/wp-content/uploads/2024/02/original.jpeg" alt="Denis Novozilov HappyWheels Roller School" class="rounded-lg rotate-6 duration-200 hover:rotate-0 hover:scale-110 md:min-w-[66%] md:w-[66%] md:translate-x-0">
+        <img src="/wp-content/uploads/2024/02/original.jpeg" alt="Denis Novozilov dxbskating Roller School" class="rounded-lg rotate-6 duration-200 hover:rotate-0 hover:scale-110 md:min-w-[66%] md:w-[66%] md:translate-x-0">
         <!-- Card -->
         <div class="relative border p-4 pb-8 rounded-lg shadow-xl -mt-12 bg-white max-w-[520px] ml-auto sm:-mt-32 lg:-mt-[200px]">
           <h3 class="text-3xl font-semibold mb-6">

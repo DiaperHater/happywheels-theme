@@ -7,25 +7,30 @@
         <!-- Navigation -->
         <div class="w-[920px] max-w-full mx-auto border-b border-b-white md:mb-12 md:grid md:grid-cols-8 md:gap-x-6 lg:items-center">
           <!-- Logo -->
-          <a href="/" class="text-5xl leading-none font-bold uppercase duration-200 hover:text-blue-500  block text-center mb-12 md:col-span-full md:text-center md:mb-0">
-            HappyWheels
+          <a href="/" class="block mb-12 text-5xl font-bold leading-none text-center duration-200 hover:text-blue-500 md:col-span-full md:text-center md:mb-0">
+            dXb Skating
           </a>
         </div>
       </div>
       <!-- Socials -->
       <div class="flex justify-center mb-12">
-        <a href="tel:+971558730851" class="text-3xl font-semibold underline text-neutral-900 block">
+        <a href="tel:+971558730851" class="block text-3xl font-semibold underline text-neutral-900">
           +971-55-8730851
         </a>
       </div>
       <!-- Socials -->
-      <div class="flex gap-x-6 justify-center mb-12">
+      <div class="flex justify-center mb-12 gap-x-6">
         <?php get_template_part('template-parts/components/social-icons', null) ?>
       </div>
       <!-- Sign -->
-      <p class="text-center font-light pt-4 border-t border-t-neutral-900">
-        © 2024
-      </p>
+      <div class="flex justify-between border-t border-t-neutral-900">
+        <p class="pt-4 font-light text-center">
+          © 2024 dXb Skating
+        </p>
+        <p class="pt-4 font-light text-center">
+          Website by <a href="https://valerypronin.com" class="font-bold hover:text-blue-500">Valery Pronin</a>
+        </p>
+      </div>
     </div>
     </div>
   </footer>

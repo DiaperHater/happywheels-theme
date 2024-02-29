@@ -1000,10 +1000,6 @@ textarea.custom-form-input {
   margin-top: 0.5rem;
 }
 
-.mt-\[52px\] {
-  margin-top: 52px;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -2324,16 +2320,16 @@ textarea.custom-form-input {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
 
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
-}
-
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
 }
 
 .decoration-slice {
@@ -3258,10 +3254,6 @@ textarea.custom-form-input {
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
-.group\/header.narrow .group-\[\.narrow\]\/header\:bg-opacity-90 {
-  --tw-bg-opacity: 0.9;
-}
-
 .group\/header.narrow .group-\[\.narrow\]\/header\:bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
@@ -3466,10 +3458,6 @@ textarea.custom-form-input {
 
   .lg\:ml-auto {
     margin-left: auto;
-  }
-
-  .lg\:mt-\[66px\] {
-    margin-top: 66px;
   }
 
   .lg\:block {

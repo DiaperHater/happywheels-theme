@@ -24,8 +24,8 @@
         <!-- Inner -->
         <nav class="header__inner py-3 flex items-center duration-200 group-[.narrow]/header:px-6 group-[.narrow]/header:bg-neutral-900 group-[.narrow]/header:bg-opacity-20 group-[.narrow]/header:backdrop-blur-sm group-[.narrow]/header:rounded-lg">
           <!-- Logo -->
-          <a href="/" class="text-2xl leading-none font-bold uppercase mr-12 divide-purple-200 hover:text-blue-500">
-            HappyWheels
+          <a href="/" class="mr-12 text-2xl font-bold leading-none divide-purple-200 hover:text-blue-500">
+            dXb Skating
           </a>
           <!-- Links -->
           <ul class="hidden lg:flex lg:items-center lg:gap-x-4 lg:ml-auto">
@@ -43,7 +43,7 @@
             </a>
           </ul>
           <!-- Buttons -->
-          <div class="flex gap-x-4 items-center ml-auto lg:ml-12">
+          <div class="flex items-center ml-auto gap-x-4 lg:ml-12">
             <!-- Burger  -->
             <button class="burger w-[36px] flex flex-col gap-y-2 group group-[.narrow]/header:gap-y-1.5 group-[.narrow]/header:w-[30px] lg:hidden" onclick="burgerOnClick()">
               <div class="w-full h-1 bg-white rounded-lg duration-200 origin-top-right group-[.active]:-rotate-45 group-hover:bg-blue-500"></div>
@@ -62,28 +62,28 @@
       <div class="wrapper">
         <div class="box">
           <!-- Inner -->
-          <div class="flex flex-col gap-y-16 pt-14 pb-40">
+          <div class="flex flex-col pb-40 gap-y-16 pt-14">
             <!-- Links -->
             <ul class="flex flex-col gap-y-4">
-              <a href="#about" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#about" class="text-2xl text-center uppercase duration-200 hover:text-blue-500">
                 Для кого
               </a>
-              <a href="#levels" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#levels" class="text-2xl text-center uppercase duration-200 hover:text-blue-500">
                 Уровни
               </a>
-              <a href="#prices" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#prices" class="text-2xl text-center uppercase duration-200 hover:text-blue-500">
                 Цены
               </a>
-              <a href="#coach" class="text-2xl uppercase text-center duration-200 hover:text-blue-500">
+              <a href="#coach" class="text-2xl text-center uppercase duration-200 hover:text-blue-500">
                 Тренер
               </a>
             </ul>
             <!-- Socials -->
-            <div class="flex items-center gap-x-8 self-center">
+            <div class="flex items-center self-center gap-x-8">
               <?php get_template_part('template-parts/components/social-icons', null) ?>
             </div>
             <!-- Contact -->
-            <a href="#form" class="button self-center">
+            <a href="#form" class="self-center button">
               Контакты
             </a>
           </div>
