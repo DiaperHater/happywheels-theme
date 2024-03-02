@@ -28,7 +28,7 @@
           © 2024 dXb Skating
         </p>
         <p class="pt-4 font-light text-center">
-          Website by <a href="https://valerypronin.com" class="font-bold hover:text-blue-500">Valery Pronin</a>
+          Website by <a href="https://valerypronin.com" class="font-bold hover:text-blue-500">Valery Pronin1</a>
         </p>
       </div>
     </div>
