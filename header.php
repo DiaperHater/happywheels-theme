@@ -13,6 +13,9 @@
   <?php wp_head() ?>
 
   <title><?= get_the_title() ?></title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= get_template_directory_uri() ?>/assets/images/favicon.png">
+
 </head>
 
 <body>
