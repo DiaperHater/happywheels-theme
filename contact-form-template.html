@@ -1,0 +1,13 @@
+[text* your-name autocomplete:name class:custom-form-input placeholder "Имя*"]
+[text* your-tel autocomplete:tel class:custom-form-input placeholder "Телефон*"]
+[email your-email autocomplete:email class:custom-form-input placeholder "Email"]
+[select your-level "Уровень катания" "1" "2" "3" "4"]
+<span class="wpcf7-form-control-wrap locations" data-name="your-locations">
+    <label>Локации</label>
+    [checkbox your-locations "Al Barsha" "Business Bay" "Creek Harbour" "Damac Hills" "Downtown Dubai" "Dubai Design District (D3)" "Dubai Harbour" "Dubai Hills Park" "Dubai Marina" "Dubai Skatepark" "JBR (Jumeirah Beach Residences)" "Kite Beach" "Mushrif" "Nad Al Sheba" "Shoba Hartland" "The Block Dubai" "XDubai"]
+</span>
+[textarea your-message x4 class:custom-form-input placeholder "Дополнительная информация"]
+
+<button type="submit" class="wpcf7-submit button border border-white !bg-blue-500 hover:!text-white hover:!bg-neutral-900">
+  Отправить
+</button>

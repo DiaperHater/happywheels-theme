@@ -13,12 +13,14 @@
           <h2 class="heading mb-6 text-center">
             Формула успеха
           </h2>
-          <p class="text-2xl mb-8 text-center">
+          <p class="text-2xl mb-8">
             Здесь мы учимся катанию на роликах ,
             <br>но не останавливаемся на достигнутом .
+            <br>
+            <br>С нами ?
           </p>
           <a href="#form" class="button mx-auto">
-            Я тоже !
+            Да !
           </a>
         </div>
       </div>
