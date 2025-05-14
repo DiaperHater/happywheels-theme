@@ -13,10 +13,9 @@
           <h2 class="heading mb-6 text-center">
             Формула успеха
           </h2>
-          <p class="text-2xl mb-8">
+          <p class="text-2xl mb-8 text-center">
             Здесь мы учимся катанию на роликах ,
-            <br>но не останавливаемся на достигнутом .
-            <br>
+            <br>но не останавливаемся на достигнутом .            
             <br>С нами ?
           </p>
           <a href="#form" class="button mx-auto">
